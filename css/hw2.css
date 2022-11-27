@@ -48,10 +48,21 @@ main table tr:nth-child(2n+1){
 main table tr:nth-child(2n+0){
     background-color:#8ca6db ;
 }
-
+main table th:nth-child(2n){
+    color: #234b91;
+} 
+main table td:nth-child(2n){
+    color: #234b91;
+} 
+main table th:nth-child(2n+1){
+    color: #b993d6;
+} 
+main table td:nth-child(2n+1){
+    color: #b993d6;
+} 
 table{
     margin:10px;
-    text-align: center;
+    /* text-align: center; */
 }
 .col1{
     color: white;
